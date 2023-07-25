@@ -104,7 +104,8 @@
 r2^"Intro." \tuplet 3/2 {a'4 bes'4 c''4} 
 \grace bes'8 (c''4.) f'8~f'2~
 f'2 \tuplet 3/2 {a'4 bes'4 c''4} 
-c''4. f'8~f'2~f'2 \tuplet 3/2 {f'4 g' a'} 
+\grace bes'8 (c''4.) f'8~f'2~
+f'2 \tuplet 3/2 {f'4 g' a'} 
 a'4. bes'8~bes'2~
 bes'4 c''4 d''4 \grace e''8 (f''4)~
 f''1 
