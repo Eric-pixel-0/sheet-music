@@ -3,8 +3,8 @@
         composer = "CD Jovem (1997)"
 
         %Sumir com a nota de rodapé
-        tagline = ""
-        
+        tagline = "Igreja Adventista do Sétimo Dia"
+        %poet = "quem fez a letra / co-autor"
         %Se der algum erro, acrescentar o caractere espaço para recarregar a página:
         %...  
 }
@@ -105,11 +105,18 @@
 \set midiInstrument = #"soprano sax"
 
 
+r8
+a'8 \grace bes'8 (a'8) g' f' g' a' c'' 
+d''2. r4
+f''8. f''8. f''4 e''8 d''4
+c''1
 
 
-r2^"Intro." \tuplet 3/2 {a'4 bes'4 c''4} 
+
+%Introd
+r2 \tuplet 3/2 {a'4 bes' c''} 
 \grace bes'8 (c''4.) f'8~f'2~
-f'2 \tuplet 3/2 {a'4 bes'4 c''4} 
+f'2 \tuplet 3/2 {a'4 bes' c''} 
 \grace bes'8 (c''4.) f'8~f'2~
 f'2 \tuplet 3/2 {f'4 g' a'} 
 a'4. bes'8~bes'2~
@@ -122,10 +129,45 @@ f''1
 \compressMMRests {
     \override MultiMeasureRest.expand-limit = #1
     %R1*2 | R1*5 | R1*9
-    R1*21
-    }
+    R1*21 
+}
+
+r4. a'8 \tuplet 3/2 {a'4 bes' c''} 
+c''4. f'8~f'2~
+f'2 \tuplet 3/2 {a'4 bes' c''}
+c''4. f'8~f'2~
+f'2 \tuplet 3/2 {f'4 g' a'}
+a'4. bes'8~bes'4 g'4~
+g'2. r4
+
+\compressMMRests {
+    \override MultiMeasureRest.expand-limit = #1
+    %R1*2 | R1*5 | R1*9
+    R1*3
+}
+ 
+r2 \tuplet 3/2 {a'4 bes' c''} 
+c''4. f'8~f'4 f''4~
+f''1
+r1
+e''8. \grace f''16 (e''8.) d''8~d''2
+
+\compressMMRests {
+    \override MultiMeasureRest.expand-limit = #1
+    %R1*2 | R1*5 | R1*9
+    R1*11
+}
+
+a'8 \grace bes'16 (a'8) g' f' g' a' c'' d''~
+d''2
 
 %\bar "||"
+
+\compressMMRests {
+    \override MultiMeasureRest.expand-limit = #1
+    %R1*2 | R1*5 | R1*9
+    %R1*21
+}
 \break
 
         }
@@ -133,6 +175,8 @@ f''1
                 %Alinhamento do texto:
                 %\override LyricText.self-alignment-X = #LEFT
 
+                _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+                Me_a -- ju -- da_a te co -- nhecer_...
                 %"1" "2" "3" "4" "1" "2" "3" "4" "1" "2" "3" "4" "1" "2" "3" "4"
                 %Dó Ré Mi Fá Sol Lá Si
                 %"Dó" "Dó♯" "Ré" "Ré♯" "Mi" "Fá" "Fá♯" "Sol" "Sol♯" "Lá" "Lá♯" "Si" "Dó"
@@ -219,7 +263,7 @@ f''1
                 %indent = #0
                 %line-width = #200
                 %ragged-last = #0
-                \context{ 
+                \context{
                         \Score
                         %mudar o espaco entre as notas sem letra
                         %Valores maiores de ly:make-moment produzirão músicas menores.. e 1/4 é maior que 1/16
