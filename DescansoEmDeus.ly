@@ -94,8 +94,8 @@
 
 %Audios da Berklee sao 100bpm
 %Andamento
-\tempo 4 = 110
-
+\tempo 4 = 117
+ 
 %Tom da música
 \key f \major %\minor
 
