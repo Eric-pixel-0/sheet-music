@@ -104,15 +104,6 @@
 %instrumento para o áudio MIDI
 \set midiInstrument = #"soprano sax"
 
-r8 f''8 f''8 f''8~f''8 e''8 d''4~
-d''8 c''8 a'8 c''8~c''2 
- 
-r8 a'8 (\grace bes'8 a'8 g' f' g' a' g') 
-a'4. bes'8~bes'4 g'4~
-g'2~g'8 c''8 d'' e''
-f''1 
-e''1
-f''1 \fermata 
 
 %Introd
 r2 \tuplet 3/2 {a'4 bes' c''} 
@@ -173,7 +164,16 @@ r8 a'8 g' f' g' a'4.
     R1*9
 }
 
-r1
+r8 f''8 f''8 f''8~f''8 e''8 d''4~
+d''8 c''8 a'8 c''8~c''2 
+ 
+r8 a'8 (\grace bes'8 a'8 g' f' g' a' f') 
+a'4. bes'8~bes'4 (\grace a'4 g'4)~
+g'2~g'8 c''8 d'' e''
+f''1 
+e''1
+f''1 \fermata 
+
 %\bar "||"
 
 \compressMMRests {
