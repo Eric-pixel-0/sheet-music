@@ -105,11 +105,7 @@
 \set midiInstrument = #"soprano sax"
 
 
-r8
-a'8 \grace bes'8 (a'8) g' f' g' a' c'' 
-d''2. r4
-f''8. f''8. f''4 e''8 d''4
-c''1
+
 
 
 
@@ -158,8 +154,18 @@ e''8. \grace f''16 (e''8.) d''8~d''2
     R1*11
 }
 
-a'8 \grace bes'16 (a'8) g' f' g' a' c'' d''~
-d''2
+r8 a'8 (\grace bes'8 a'8 g' f' g' a'  c''8) 
+\grace bes'8 (d''1)
+r8 f''8 f''8 f''8~f''8 e''8 d''4~
+d''8 c''8 a'8 c''8~c''2
+
+\compressMMRests {
+    \override MultiMeasureRest.expand-limit = #1
+    %R1*2 | R1*5 | R1*9
+    R1*8
+}
+
+r1
 
 %\bar "||"
 
