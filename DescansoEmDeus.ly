@@ -104,10 +104,15 @@
 %instrumento para o áudio MIDI
 \set midiInstrument = #"soprano sax"
 
-
-
-
-
+r8 f''8 f''8 f''8~f''8 e''8 d''4~
+d''8 c''8 a'8 c''8~c''2 
+ 
+r8 a'8 (\grace bes'8 a'8 g' f' g' a' g') 
+a'4. bes'8~bes'4 g'4~
+g'2~g'8 c''8 d'' e''
+f''1 
+e''1
+f''1 \fermata 
 
 %Introd
 r2 \tuplet 3/2 {a'4 bes' c''} 
@@ -124,8 +129,7 @@ f''1
 
 \compressMMRests {
     \override MultiMeasureRest.expand-limit = #1
-    %R1*2 | R1*5 | R1*9
-    R1*21 
+    R1*21
 }
 
 r4. a'8 \tuplet 3/2 {a'4 bes' c''} 
@@ -137,8 +141,6 @@ a'4. bes'8~bes'4 g'4~
 g'2. r4
 
 \compressMMRests {
-    \override MultiMeasureRest.expand-limit = #1
-    %R1*2 | R1*5 | R1*9
     R1*3
 }
  
@@ -149,8 +151,6 @@ r1
 e''8. \grace f''16 (e''8.) d''8~d''2
 
 \compressMMRests {
-    \override MultiMeasureRest.expand-limit = #1
-    %R1*2 | R1*5 | R1*9
     R1*11
 }
 
@@ -160,13 +160,20 @@ r8 f''8 f''8 f''8~f''8 e''8 d''4~
 d''8 c''8 a'8 c''8~c''2
 
 \compressMMRests {
-    \override MultiMeasureRest.expand-limit = #1
-    %R1*2 | R1*5 | R1*9
     R1*8
 }
 
+r8 f'8 a'8 f''8 e''4 d''4
+c''1
 r1
+r1
+r8 a'8 g' f' g' a'4.
 
+\compressMMRests {
+    R1*9
+}
+
+r1
 %\bar "||"
 
 \compressMMRests {
