@@ -1,6 +1,6 @@
 \header{
-        %title = "título"
-        %composer = "compositor"
+        title = "Descanso em Deus"
+        composer = "CD Jovem (1997)"
 
         %Sumir com a nota de rodapé
         tagline = ""
@@ -14,14 +14,17 @@
         %paper-height = #100
         %bottom-margin = #0
         %top-margin = #0
-        %left-margin = #0
+        left-margin = #20
         %right-margin = #0
         %inner-margin = #0
         %outer-margin = #0
 }
 
 \score {
-  \new Staff <<
+  \new Staff \with {
+  instrumentName = "Saxofone Soprano"
+  shortInstrumentName = "S sax"
+} <<
     \new Voice{
 
         %instrumento ocarina
@@ -98,8 +101,11 @@
 
 %@@@@@@@@@@@@@@@@@@@@@@PRIMEIRA@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-%instrumento
+%instrumento para o áudio MIDI
 \set midiInstrument = #"soprano sax"
+
+
+
 
 r2^"Intro." \tuplet 3/2 {a'4 bes'4 c''4} 
 \grace bes'8 (c''4.) f'8~f'2~
@@ -110,8 +116,15 @@ a'4. bes'8~bes'2~
 bes'4 c''4 d''4 \grace e''8 (f''4)~
 f''1 
 g''1 
+f''1~
 f''1
- 
+
+\compressMMRests {
+    \override MultiMeasureRest.expand-limit = #1
+    %R1*2 | R1*5 | R1*9
+    R1*21
+    }
+
 %\bar "||"
 \break
 
@@ -203,7 +216,7 @@ f''1
 
         %gera PDF
         \layout {
-                indent = #0
+                %indent = #0
                 %line-width = #200
                 %ragged-last = #0
                 \context{ 
