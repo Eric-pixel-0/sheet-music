@@ -7,7 +7,7 @@
         %poet = "quem fez a letra / co-autor"
         %Se der algum erro, acrescentar o caractere espaço para recarregar a página:
         %...  
-}
+} 
 
 \paper {
         %paper-width = #150
@@ -107,9 +107,9 @@
 
 %Introd
 r2 \tuplet 3/2 {a'4 bes' c''} 
-\grace bes'8 (c''4.) f'8~f'2~
+c''4. f'8~f'2~
 f'2 \tuplet 3/2 {a'4 bes' c''} 
-\grace bes'8 (c''4.) f'8~f'2~
+c''4. f'8~f'2~
 f'2 \tuplet 3/2 {f'4 g' a'} 
 a'4. bes'8~bes'2~
 bes'4 c''4 d''4 \grace e''8 (f''4)~
@@ -122,6 +122,7 @@ f''1
     \override MultiMeasureRest.expand-limit = #1
     R1*21
 }
+\break
 
 r4. a'8 \tuplet 3/2 {a'4 bes' c''} 
 c''4. f'8~f'2~
@@ -134,7 +135,8 @@ g'2. r4
 \compressMMRests {
     R1*3
 }
- 
+\break
+
 r2 \tuplet 3/2 {a'4 bes' c''} 
 c''4. f'8~f'4 f''4~
 f''1
@@ -144,6 +146,7 @@ e''8. \grace f''16 (e''8.) d''8~d''2
 \compressMMRests {
     R1*11
 }
+\break
 
 r8 a'8 (\grace bes'8 a'8 g' f' g' a'  c''8) 
 \grace bes'8 (d''1)
@@ -153,6 +156,7 @@ d''8 c''8 a'8 c''8~c''2
 \compressMMRests {
     R1*8
 }
+\break
 
 r8 f'8 a'8 f''8 e''4 d''4
 c''1
@@ -163,6 +167,7 @@ r8 a'8 g' f' g' a'4.
 \compressMMRests {
     R1*9
 }
+\break
 
 r8 f''8 f''8 f''8~f''8 e''8 d''4~
 d''8 c''8 a'8 c''8~c''2 
