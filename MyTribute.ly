@@ -1,6 +1,6 @@
 \header{
         title =         \markup {
-                                "Como Agradecer"
+                                "Como Agradecer - 346"
                         }
         subtitle = "My Tribute"
         composer =      \markup {
@@ -64,8 +64,8 @@
         %Clave de fá
         %\clef F
 
-        %\relative c' {
-         {
+        \relative {
+        % {
 
 %Muda a figura da nota
 %\improvisationOn
@@ -79,7 +79,7 @@
 %\override Stem.color = #(rgb-color 0 0 1)
 
 %Direção da Haste
-%\stemUp
+\stemUp
 %\stemDown
 %\stemNeutral
 
@@ -111,8 +111,29 @@
 
 %@@@@@@@@@@@@@@@@@@@@@@PRIMEIRA@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+r2 r4. f'8
+bes2. a8 bes
+a2 g4. g8
+c2. b8 c
+\break
+bes2 a4. a8
+d2. c8 d
+c2 bes4 bes8 c
+d2 bes4 d
+\break
+c2. f,8 f
+bes2. a8 bes
+a2 g4 g8 g
+c2. b8 c
+\break
+bes2 a4 r8 a8
+d2. c8 d
+c2 bes4 bes8 c
+\break
+d2 bes4 bes 
+bes1
+\bar "||"
 
-r1
 
 %\bar "||"
 
@@ -121,10 +142,10 @@ r1
     %R1*2 | R1*5 | R1*9
     %R1*21
 }
-\break
 
-        }
-        \addlyrics{
+}
+
+        \addlyrics {
                 %Alinhamento do texto:
                 %\override LyricText.self-alignment-X = #LEFT
 
@@ -143,13 +164,13 @@ r1
 
     }
 
-\new Staff
-    \new Voice {
+%\new Staff
+    %\new Voice {
         
     %instrumento ocarina
     %\set midiInstrument = #"ocarina"
     %Compasso 4/4 aparece em fração e não a letra C
-    \numericTimeSignature    
+    %\numericTimeSignature    
     %remove a clave
     %\override Staff.Clef.color = #white
     %\override Staff.Clef.layer = #-1
@@ -162,7 +183,7 @@ r1
     %Clave de percussão
     %\clef percussion
     %Clave de fá
-    \clef F
+    %\clef F
         
     %\relative c''{
     %  {
@@ -186,7 +207,7 @@ r1
 %\hideNotes 
 %\unHideNotes 
 
-\key bes \major
+%\key bes \major
 
 %@@@@@@@@@@@@@@@@@@SEGUNDA@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
         %\time 4/4
@@ -206,10 +227,11 @@ r1
 %\break
 
 
-     }
+    % }
     % }
 
-  >>
+
+ >>
 
         %gera PDF
         \layout {
