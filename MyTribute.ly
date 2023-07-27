@@ -1,17 +1,26 @@
 \header{
-        %title = ""
-        %composer = ""
-
+        title =         \markup {
+                                "Como Agradecer"
+                        }
+        subtitle = "My Tribute"
+        composer =      \markup {
+                                \bold "Andraé Crouch"
+                        }
+        arranger =      \markup {
+                                "Arranjo: Sebastião M. Barbosa Júnior"
+                        }
         %Sumir com a nota de rodapé
         tagline = ""
-        %poet = "quem fez a letra / co-autor"
+        poet =  \markup {
+                        \bold "Andraé Crouch"
+                }
         %Se der algum erro, acrescentar o caractere espaço para recarregar a página:
         %...  
 }
 
 \paper {
-        paper-width = #100
-        paper-height = #100
+        %paper-width = #100
+        %paper-height = #100
         %bottom-margin = #0
         %top-margin = #0
         %left-margin = #20
@@ -26,13 +35,13 @@
                 %instrumentName = "Saxofone Soprano"
                 %shortInstrumentName = "S sax"
         } <<
-    \new Voice{
+    \new Voice{ 
 
         %instrumento ocarina
         %\set midiInstrument = #"ocarina"
                 
         %Compasso 4/4 aparece em fração e não a letra C
-        %\numericTimeSignature        
+        \numericTimeSignature        
 
         %remove a clave
         %\hide Staff.Clef
@@ -95,10 +104,10 @@
 
 %Audios da Berklee sao 100bpm
 %Andamento
-%\tempo 4 = 117
+\tempo 4 = 80
  
 %Tom da música
-%\key f \major %\minor
+\key bes \major %\minor
 
 %@@@@@@@@@@@@@@@@@@@@@@PRIMEIRA@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
@@ -134,13 +143,13 @@ r1
 
     }
 
-%\new Staff
-    %\new Voice {
+\new Staff
+    \new Voice {
         
     %instrumento ocarina
     %\set midiInstrument = #"ocarina"
     %Compasso 4/4 aparece em fração e não a letra C
-    %\numericTimeSignature    
+    \numericTimeSignature    
     %remove a clave
     %\override Staff.Clef.color = #white
     %\override Staff.Clef.layer = #-1
@@ -153,7 +162,7 @@ r1
     %Clave de percussão
     %\clef percussion
     %Clave de fá
-    %\clef F
+    \clef F
         
     %\relative c''{
     %  {
@@ -177,7 +186,7 @@ r1
 %\hideNotes 
 %\unHideNotes 
 
-%\key g \major
+\key bes \major
 
 %@@@@@@@@@@@@@@@@@@SEGUNDA@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
         %\time 4/4
@@ -197,7 +206,7 @@ r1
 %\break
 
 
-    % }
+     }
     % }
 
   >>
