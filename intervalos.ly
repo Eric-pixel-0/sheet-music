@@ -3,8 +3,8 @@
         %composer = ""
 
         %Sumir com a nota de rodapé
-        tagline = "Seu nome completo: __________________________________________________"
-        %poet = "quem fez a letra / co-autor"
+        tagline = "Seu nome completo: ______________________________________________________________________"
+        %poet = ""
         %Se der algum erro, acrescentar o caractere espaço para recarregar a página:
         %...  
 }
@@ -103,100 +103,94 @@
 %@@@@@@@@@@@@@@@@@@@@@@PRIMEIRA@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 
-% Compassos: 125. Notas: 250. Compasso: 4/4
-cis''2 eis'2 
-eis'2 aes'2 
-fes'2 gis'2 
-e'2 gis'2 
-des'2 fis'2 
-dis'2 b'2 
-aes'2 d'2 
-eis'2 cis'2 
-bis'2 g'2 
-gis'2 ces'2 
-ces'2 cis'2 
-ces'2 fis'2 
-bes'2 b'2 
-c'2 fis'2 
-gis'2 c'2 
-b'2 c''2 
-a'2 ees'2 
-dis'2 cis''2 
+% Compassos: 85. Notas: 170. Compasso: 4/4
 cis'2 cis''2 
-fes'2 ges'2 
-d'2 f'2 
-aes'2 des'2 
-ees'2 ces''2 
-ces'2 d'2 
-d'2 f'2 
-des'2 gis'2 
-cis'2 cis''2 
-ees'2 ges'2 
-fis'2 ges'2 
-ais'2 bis'2 
-g'2 e'2 
-a'2 fis'2 
-c''2 ges'2 
-d'2 gis'2 
-c''2 c''2 
-dis'2 ees'2 
-dis'2 dis'2 
-ees'2 ais'2 
-ais'2 des'2 
-bis'2 dis'2 
-gis'2 bis'2 
-dis'2 bes'2 
-fis'2 ges'2 
-eis'2 e'2 
-dis'2 g'2 
-cis'2 a'2 
-bis'2 des'2 
-bes'2 ees'2 
-ces''2 cis''2 
-c''2 ces'2 
 f'2 des'2 
-d'2 cis'2 
-bis'2 dis'2 
-ees'2 ees'2 
-bes'2 des'2 
-d'2 bes'2 
+c'2 fis'2 
+ces''2 gis'2 
+c'2 bes'2 
+c''2 f'2 
+fes'2 fis'2 
+g'2 f'2 
+e'2 g'2 
 c''2 gis'2 
-cis''2 des'2 
-bes'2 gis'2 
-c''2 ces''2 
-gis'2 f'2 
-bes'2 fis'2 
-cis''2 dis'2 
-ees'2 ais'2 
-ees'2 fis'2 
-cis'2 bis'2 
-cis''2 d'2 
-g'2 cis''2 
-aes'2 c''2 
-aes'2 ces''2 
-ces''2 ees'2 
-dis'2 des'2 
-eis'2 f'2 
-c'2 aes'2 
-fis'2 g'2 
+bes'2 bis'2 
+des'2 e'2 
+g'2 cis'2 
+cis''2 b'2 
+ces'2 c'2 
+gis'2 d'2 
+bes'2 bes'2 
+ces''2 ges'2 
+ais'2 c'2 
+a'2 a'2 
+bes'2 c''2 
+ces'2 bes'2 
+bes'2 dis'2 
+ces'2 cis'2 
+f'2 des'2 
+bes'2 ais'2 
+eis'2 aes'2 
+f'2 des'2 
+bes'2 bis'2 
+g'2 ais'2 
+ces''2 aes'2 
+a'2 ais'2 
+ais'2 ges'2 
+c'2 ees'2 
+e'2 c''2 
 fis'2 b'2 
-cis'2 cis'2 
-ees'2 ais'2 
-f'2 ces''2 
-bes'2 ges'2 
-dis'2 cis''2 
-f'2 fis'2 
-c'2 d'2 
+ces''2 c'2 
+c'2 dis'2 
+dis'2 ais'2 
 ais'2 f'2 
-des'2 c'2 
-ais'2 bis'2 
-ces''2 ais'2 
-fes'2 eis'2 
-des'2 eis'2 
-fis'2 f'2 
-fes'2 cis'2 
-c'2 ais'2 
+e'2 e'2 
+ces'2 cis'2 
+ges'2 des'2 
+ges'2 eis'2 
+dis'2 a'2 
+a'2 ges'2 
+ces'2 fis'2 
+b'2 eis'2 
+f'2 b'2 
+gis'2 cis''2 
+cis''2 eis'2 
+des'2 ges'2 
+ces''2 ges'2 
+f'2 ais'2 
+d'2 fis'2 
+bes'2 fes'2 
+ges'2 ees'2 
+bes'2 c''2 
+ais'2 ces''2 
+ges'2 ces''2 
+ees'2 aes'2 
+ees'2 gis'2 
+ces'2 f'2 
+c'2 des'2 
+fis'2 eis'2 
+g'2 fes'2 
+f'2 eis'2 
+bes'2 cis''2 
+c''2 bis'2 
+cis'2 ges'2 
+ces''2 c''2 
+c'2 ees'2 
+des'2 e'2 
+eis'2 cis''2 
+cis''2 c'2 
+ges'2 e'2 
+cis''2 ces'2 
+des'2 d'2 
+aes'2 ges'2 
+c'2 g'2 
+f'2 des'2 
 dis'2 aes'2 
+fis'2 ces''2 
+fes'2 ces''2 
+fes'2 c''2 
+
+
 
 
 
