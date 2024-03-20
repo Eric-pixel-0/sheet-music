@@ -211,7 +211,7 @@ r1
                         \Score
                         %mudar o espaco entre as notas sem letra
                         %Valores maiores de ly:make-moment produzirão músicas menores.. e 1/4 é maior que 1/16
-                        %\override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/16)
+                        \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/16)
                         %\override SpacingSpanner.uniform-stretching = ##t
 
                         %abaixo tira a contagem de compassos (Dentro de \Score !!!!)
