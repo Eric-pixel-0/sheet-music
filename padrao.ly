@@ -32,7 +32,7 @@
         %\set midiInstrument = #"ocarina"
                 
         %Compasso 4/4 aparece em fração e não a letra C
-        %\numericTimeSignature        
+        \numericTimeSignature        
 
         %remove a clave
         %\hide Staff.Clef
@@ -75,7 +75,7 @@
 %\stemNeutral
 
 %Colcheias não se conectam
-%\autoBeamOff
+\autoBeamOff
 %\autoBeamOn
 
 %Ocultar os números dos compassos a cada linha
