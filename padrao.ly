@@ -104,7 +104,7 @@
 
 
 r1
-
+%\break
 \bar "|."
 
 \compressMMRests {
