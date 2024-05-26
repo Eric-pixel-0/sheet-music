@@ -62,7 +62,7 @@
 %\improvisationOn
 
 %a linha abaixo oculta a haste da nota
-%\hideStem
+%\hide Stem
 %para desfazer basta usar
 %\undoHideStem \hideStem
 
@@ -105,7 +105,7 @@
 
 r1
 
-%\bar "||"
+\bar "|."
 
 \compressMMRests {
     %\override MultiMeasureRest.expand-limit = #1
