@@ -107,6 +107,7 @@
 
 r1
 %\break
+% <c' e' g'> 2. %acordes
 \bar "|."
 
 \compressMMRests {
