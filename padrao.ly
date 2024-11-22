@@ -77,8 +77,11 @@
 %\stemNeutral
 
 %Colcheias não se conectam
-\autoBeamOff
+%\autoBeamOff
 %\autoBeamOn
+
+%Ligaduras ou legatos invertidos:
+%c''2_(c'') c''2^(c'')
 
 %Ocultar os números dos compassos a cada linha
 %\hide Score.BarNumber
