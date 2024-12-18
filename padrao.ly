@@ -22,6 +22,13 @@
         %outer-margin = #0
 }
 
+% \markup {
+%  \column {
+%    \line { "Texto final do documento." }
+%    \line { "Obrigado por ouvir a música!" }
+%  }
+% }
+
 \score {
   \new Staff 
         \with {
