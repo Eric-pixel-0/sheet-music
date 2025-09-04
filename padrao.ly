@@ -12,8 +12,8 @@
 }
 
 \paper {
-        paper-width = #100
-        paper-height = #50
+        paper-width = #190
+        %paper-height = #50
         %bottom-margin = #0
         %top-margin = #0
         %left-margin = #20
@@ -116,6 +116,8 @@
 
 
 r1
+
+
 %\break
 % <c' e' g'> 2. %acordes
 \bar "|."
