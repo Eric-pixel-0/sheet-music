@@ -12,8 +12,8 @@
 }
 
 \paper {
-        paper-width = #190
-        %paper-height = #50
+        paper-width = #150
+        paper-height = #50
         %bottom-margin = #0
         %top-margin = #0
         %left-margin = #20
@@ -117,7 +117,17 @@
 
 r1
 
-
+%\override NoteHead.color = #red 
+%\override Stem.color = #red 
+%\override Flag.color = #red
+%\override Beam.color = #red
+%\override Rest.color = #red
+%b1 b2 b4 b8 r4
+%\revert NoteHead.color
+%\revert Stem.color
+%\revert Flag.color
+%\revert Beam.color
+%\revert Rest.color
 %\break
 % <c' e' g'> 2. %acordes
 \bar "|."
