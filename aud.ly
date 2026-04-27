@@ -84,7 +84,7 @@
 %\stemNeutral
 
 %Colcheias não se conectam
-\autoBeamOff
+%\autoBeamOff
 %\autoBeamOn
 
 %Ligaduras ou legatos invertidos:
