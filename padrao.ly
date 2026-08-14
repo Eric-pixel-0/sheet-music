@@ -117,7 +117,10 @@
 
 r1
 
-%_"½"
+%_"½" ou ^"½"
+%♯
+%♭
+%♮
 %\override NoteHead.color = #red 
 %\override Stem.color = #red 
 %\override Flag.color = #red
