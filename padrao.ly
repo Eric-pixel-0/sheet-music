@@ -51,6 +51,7 @@
         %a linha abaixo oculta as barras
         %\override Score.BarLine.stencil = ##f
         %\hide Score.BarLine
+        \override Score.BarLine.bar-extent = #'(-2 . 2)
 
         %a linha abaixo oculta o pentagrama
         %\override Staff.StaffSymbol.line-count = #0
