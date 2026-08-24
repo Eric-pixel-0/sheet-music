@@ -127,12 +127,14 @@ r1
 %\override Flag.color = #red
 %\override Beam.color = #red
 %\override Rest.color = #red
+%\override Dots.color = #red
 %b1 b2 b4 b8 r4
 %\revert NoteHead.color
 %\revert Stem.color
 %\revert Flag.color
 %\revert Beam.color
 %\revert Rest.color
+%\revert Dots.color
 %\break
 % <c' e' g'> 2. %acordes
 \bar "|."
