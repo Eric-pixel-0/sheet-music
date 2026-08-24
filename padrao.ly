@@ -14,12 +14,12 @@
 \paper {
         paper-width = #150
         paper-height = #50
-        %bottom-margin = #0
-        %top-margin = #0
-        %left-margin = #20
-        %right-margin = #0
-        %inner-margin = #0
-        %outer-margin = #0
+        bottom-margin = #1
+        top-margin = #1
+        left-margin = #1
+        right-margin = #1
+        inner-margin = #1
+        outer-margin = #1
 }
 
 % \markup {
