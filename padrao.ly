@@ -98,6 +98,9 @@
 %\hideNotes
 %\unHideNotes
 
+%Deixa as barras de compasso vermelhas
+%\override Staff.BarLine.color = #(rgb-color 1 0 0)
+
 %\overrideTimeSignatureSettings
         %4/4        % timeSignatureFraction
         %1/4        % baseMomentFraction
