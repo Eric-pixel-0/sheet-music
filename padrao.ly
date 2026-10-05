@@ -98,6 +98,11 @@
 %\hideNotes
 %\unHideNotes
 
+%Ocultar os pontos de aumento
+%\hide Dots
+%\unHide Dots
+%\once \override Dots.transparent = ##t
+
 %Deixa as barras de compasso vermelhas
 %\override Staff.BarLine.color = #(rgb-color 1 0 0)
 
