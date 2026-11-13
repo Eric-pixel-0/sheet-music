@@ -158,6 +158,8 @@ r1
         \addlyrics{
                 %Alinhamento do texto:
                 %\override LyricText.self-alignment-X = #LEFT
+                %\override VerticalAxisGroup.nonstaff-relatedstaff-spacing.minimum-distance = 8
+                %\override VerticalAxisGroup.nonstaff-relatedstaff-spacing.basic-distance = 8
 
                 %_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
                 %Me_a -- ju -- da_a te co -- nhecer_...
