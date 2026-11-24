@@ -39,26 +39,27 @@
 
         %instrumento ocarina
         %\set midiInstrument = #"ocarina"
-                
+        
+        %remove a FÓRMULA DE COMPASSO
+        %\hide Staff.TimeSignature
         %Compasso 4/4 aparece em fração e não a letra C
-        \numericTimeSignature        
+        \numericTimeSignature 
+        %Colorir de vermelho
+        %\override Staff.TimeSignature.color = #red
 
-        %remove a clave
-        %\hide Staff.Clef
-        %\override Staff.Clef.color = #white
-        %\override Staff.Clef.layer = #-1
-
-        %a linha abaixo oculta as barras
+        %a linha abaixo oculta as BARRAS
         %\override Score.BarLine.stencil = ##f
         %\hide Score.BarLine
         \override Score.BarLine.bar-extent = #'(-2 . 2)
 
-        %a linha abaixo oculta o pentagrama
+        %a linha abaixo oculta a PAUTA
         %\override Staff.StaffSymbol.line-count = #0
         %\hide Staff.StaffSymbol
-        
-        %remove a formula de compasso
-        %\hide Staff.TimeSignature
+
+        %remove a CLAVE
+        %\hide Staff.Clef
+        %\override Staff.Clef.color = #white
+        %\override Staff.Clef.layer = #-1
 
         %Clave de percussão
         %\clef percussion
