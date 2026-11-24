@@ -103,7 +103,7 @@
 %\unHide Dots
 %\once \override Dots.transparent = ##t
 
-%PARA CIRCULAR UMA NOTA
+%PARA CIRCULAR UMA NOTA (digitar antes da nota)
 %{
 \once \override NoteColumn.after-line-breaking = #(lambda (grob)
     (let* ((ext-x (ly:grob-extent grob grob X))
