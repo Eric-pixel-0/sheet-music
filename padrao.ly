@@ -51,6 +51,8 @@
         %\override Score.BarLine.stencil = ##f
         %\hide Score.BarLine
         \override Score.BarLine.bar-extent = #'(-2 . 2)
+        %Deixa as barras de compasso vermelhas
+        %\override Staff.BarLine.color = #(rgb-color 1 0 0)
 
         %a linha abaixo oculta a PAUTA
         %\override Staff.StaffSymbol.line-count = #0
@@ -114,9 +116,6 @@
           (oval-stencil (ly:make-stencil '() ext-x ext-y) 0.15 0.5 0.5)
           red))))
 %}
-
-%Deixa as barras de compasso vermelhas
-%\override Staff.BarLine.color = #(rgb-color 1 0 0)
 
 %\overrideTimeSignatureSettings
         %4/4        % timeSignatureFraction
