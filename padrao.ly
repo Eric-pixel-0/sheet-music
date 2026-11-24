@@ -103,6 +103,17 @@
 %\unHide Dots
 %\once \override Dots.transparent = ##t
 
+%PARA CIRCULAR UMA NOTA
+%{
+\once \override NoteColumn.after-line-breaking = #(lambda (grob)
+    (let* ((ext-x (ly:grob-extent grob grob X))
+           (ext-y (ly:grob-extent grob grob Y)))
+      (ly:grob-set-property! grob 'stencil
+        (stencil-with-color
+          (oval-stencil (ly:make-stencil '() ext-x ext-y) 0.15 0.5 0.5)
+          red))))
+%}
+
 %Deixa as barras de compasso vermelhas
 %\override Staff.BarLine.color = #(rgb-color 1 0 0)
 
